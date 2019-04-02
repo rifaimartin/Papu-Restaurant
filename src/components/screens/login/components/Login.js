@@ -142,54 +142,54 @@ class LoginComponent extends Component {
     );
   };
 
-  renderSocialButton = (text: string, icon: string, color: string): Object => (
-    <ButtonContent
-      color={color}
-    >
-      <SocialButtonWrapper>
-        <ButtonIcon
-          iconName={icon}
-        />
-        <DefaultText>{text}</DefaultText>
-        <View />
-      </SocialButtonWrapper>
-    </ButtonContent>
-  );
+  // renderSocialButton = (text: string, icon: string, color: string): Object => (
+  //   <ButtonContent
+  //     color={color}
+  //   >
+  //     <SocialButtonWrapper>
+  //       <ButtonIcon
+  //         iconName={icon}
+  //       />
+  //       <DefaultText>{text}</DefaultText>
+  //       <View />
+  //     </SocialButtonWrapper>
+  //   </ButtonContent>
+  // );
 
-  renderSocialButtons = (): Object => {
-    const loginFacebookButtonAnimationStyle = createAnimationStyle(
-      this._loginFacebookButtonAnimation,
-    );
+  // renderSocialButtons = (): Object => {
+  //   const loginFacebookButtonAnimationStyle = createAnimationStyle(
+  //     this._loginFacebookButtonAnimation,
+  //   );
 
-    const loginGooglePlusButtonAnimationStyle = createAnimationStyle(
-      this._loginGooglePlusButtonAnimation,
-    );
+  //   const loginGooglePlusButtonAnimationStyle = createAnimationStyle(
+  //     this._loginGooglePlusButtonAnimation,
+  //   );
 
-    return (
-      <SocialButtonsContainer>
-        <Animated.View
-          style={loginFacebookButtonAnimationStyle}
-        >
-          {this.renderSocialButton(
-            'Login with Facebook',
-            'facebook',
-            appStyles.colors.facebook,
-            this._loginFacebookButtonAnimation,
-          )}
-        </Animated.View>
-        <Animated.View
-          style={loginGooglePlusButtonAnimationStyle}
-        >
-          {this.renderSocialButton(
-            'Login with Google+',
-            'google-plus',
-            appStyles.colors.googlePlus,
-            this._loginGooglePlusButtonAnimation,
-          )}
-        </Animated.View>
-      </SocialButtonsContainer>
-    );
-  };
+  //   return (
+  //     <SocialButtonsContainer>
+  //       <Animated.View
+  //         style={loginFacebookButtonAnimationStyle}
+  //       >
+  //         {this.renderSocialButton(
+  //           'Login with Facebook',
+  //           'facebook',
+  //           appStyles.colors.facebook,
+  //           this._loginFacebookButtonAnimation,
+  //         )}
+  //       </Animated.View>
+  //       <Animated.View
+  //         style={loginGooglePlusButtonAnimationStyle}
+  //       >
+  //         {this.renderSocialButton(
+  //           'Login with Google+',
+  //           'google-plus',
+  //           appStyles.colors.googlePlus,
+  //           this._loginGooglePlusButtonAnimation,
+  //         )}
+  //       </Animated.View>
+  //     </SocialButtonsContainer>
+  //   );
+  // };
 
   render() {
     const emailAnimationStyle = createAnimationStyle(
@@ -234,7 +234,7 @@ class LoginComponent extends Component {
           </ButtonContent>
         </Animated.View>
         {this.renderForgotPasswordText()}
-        {this.renderSocialButtons()}
+        {/* {this.renderSocialButtons()} */}
       </Container>
     );
   }
