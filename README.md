@@ -24,25 +24,17 @@ If you want to test the App in the Production mode, the installers are listed be
 
 iOS .ipa installer: Soon!
 
-## Functionalities
+## Yang masih belum selesai
 
-- Get a Dashboard with:
-
-- Get informations about a specific Dish, with reviews, price, image, comments and the restaurant that offers the dish.
-
-- Get Informations about a specific Restaurant, with address, operating hours, image and the menu.
-
-- Visualize the most closests Restaurants with a specific type of Dish, sorted by distance from the user to the restaurant.
+- Backend masih belum beres
 
 ## Getting Started
 
 
-**Cloning the Repository**
-
 ```
-$ https://github.com/steniowagner/bon-appetit-app
+$ https://github.com/academyyyy12/Papu-Restaurant
 
-$ cd bon-appetit-app
+$ cd Papu-Restaurant
 ```
 
 **Installing dependencies**
