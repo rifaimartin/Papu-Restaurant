@@ -1,6 +1,6 @@
 
 
-# Bon-Appetit!
+# Bon-Papu!
 
 ![Preview-Screens](https://github.com/academyyyy12/Papu-Restaurant/blob/master/ss1.png)
 ![Preview-Screens](https://github.com/academyyyy12/Papu-Restaurant/blob/master/ss2.png)
@@ -8,7 +8,7 @@
 
 
 
-## About this Project
+## Tentang Project
 
 The idea of the App is:
 
@@ -16,7 +16,7 @@ _"Show differents options of restaurants seriveces
 
 
 
-## Installers
+## APK
 
 If you want to test the App in the Production mode, the installers are listed below:
 
@@ -28,7 +28,7 @@ iOS .ipa installer: Soon!
 
 - Backend masih belum beres
 
-## Getting Started
+## Cara Memulai
 
 
 ```
@@ -37,7 +37,7 @@ $ https://github.com/academyyyy12/Papu-Restaurant
 $ cd Papu-Restaurant
 ```
 
-**Installing dependencies**
+**Installing dependencis**
 
 ```
 $ yarn
@@ -59,7 +59,7 @@ iOS
 $ react-native run-ios
 ```
 
-## Built With
+## Tech Stack
 
 - [React-Native](https://facebook.github.io/react-native/) - Build the native app using JavaScript and React
 - [React-Navigation](https://reactnavigation.org/docs/en/getting-started.html) - Router
