@@ -3,7 +3,7 @@
 # Bon-Papu!
 
 ![Preview-Screens](https://github.com/academyyyy12/Papu-Restaurant/blob/master/ss1.png)
-![Preview-Screens](https://github.com/academyyyy12/Papu-Restaurant/blob/master/ss2.png)
+![Preview-Screens](https://github.com/academyyyy12/Papu-Restaurant/blob/master/ss4.png)
 ![Preview-Screens](https://github.com/academyyyy12/Papu-Restaurant/blob/master/ss3.png)
 
 
@@ -18,11 +18,7 @@ _"Show differents options of restaurants seriveces
 
 ## APK
 
-If you want to test the App in the Production mode, the installers are listed below:
-
-[Android .apk installer](https://drive.google.com/file/d/1us880aD81EhrlYra527tGJHW3jN7R6Eh/view?usp=sharing)
-
-iOS .ipa installer: Soon!
+link : 
 
 ## Yang masih belum selesai
 
